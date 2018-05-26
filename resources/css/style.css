@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1024px){
+  header p{
+    font-size: 0.44rem;
+  }
+
+  item-container{
+    width: 47%;
+  }
+
+
+  .product-grid img{
+  /*Display only two products, each taking up half the screen*/
+  }
+}
+@media only screen and (max-width: 470px){
+  /*css code here*}
+
+body{
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.container{
+  width: 1279px;
+}
+
+header{
+  width: 100%;
+  height: 3.33rem;
+  background-color: black;
+}
+header p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.55rem;
+  color: white;
+  height: 3.33rem;
+}
+
+.top-section{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../moto.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 38.8rem;
+}
+
+.announce-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7.22rem;
+  width: 11.11rem;
+  background-color: black;
+  color: white;
+  padding-top: 1.11rem;
+}
+
+nav{
+  height: 60%;
+  width: auto;
+  padding-left: 2.77rem;
+  background-color: brown;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+li{
+  display: inline;
+  color: white;
+  padding-right:
+}
+
+.product-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 15.3rem;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.product-grid img{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  height: 7.66rem;
+  width: 7.83rem;
+}
+
+.product-grid img p{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-size: 0.55rem;
+  height 8.33;
+  width: auto;
+}
+
+.site-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+  height: 1.39rem;
+  width: 3.6rem;
+  background-color: black;
+  font-size: 0.55rem;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  height: 3.33rem;
+  background-color: black;
+}
+
+footer p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.55rem;
+  color: white;
+  height: 3.33rem;
+  width: 100%;
+}
